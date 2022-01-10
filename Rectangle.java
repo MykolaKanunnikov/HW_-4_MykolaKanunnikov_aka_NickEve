@@ -28,10 +28,6 @@ public class Rectangle extends PlaneShape {
 
     @Override
     public String toString() {
-        return "Rectangle{" + "vertices=" + Arrays.toString(getVertices()) + ", width= " + width +
-                ", height=" + height + " ," +
-                "perimeter=" + perimeter +
-                ", area=" + area +
-                '}';
+        return "Rectangle{" + "vertices=" + Arrays.toString(getVertices()) + ", width= " + width + ", height=" + height + " ," + "perimeter=" + perimeter + ", area=" + area + '}';
     }
 }

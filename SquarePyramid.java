@@ -28,9 +28,6 @@ public class SquarePyramid extends SpaceShape {
 
     @Override
     public String toString() {
-        return "SquarePyramid{" + "vertices=" + Arrays.toString(getVertices()) + ",baseHeight= " + baseHeight + ", baseWidth=" + baseWidth + ", " +
-                "volume=" + volume +
-                ", area=" + area +
-                '}';
+        return "SquarePyramid{" + "vertices=" + Arrays.toString(getVertices()) + ",baseHeight= " + baseHeight + ", baseWidth=" + baseWidth + ", " + "volume=" + volume + ", area=" + area + '}';
     }
 }

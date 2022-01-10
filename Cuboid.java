@@ -30,9 +30,6 @@ public class Cuboid extends SpaceShape implements VolumeMeasurable, AreaMeasurab
 
     @Override
     public String toString() {
-        return "Cuboid{" + "vertices=" + Arrays.toString(getVertices()) + ",height=" + height + ",weight=" + weight + ",depth =" + depth + " ," +
-                "area=" + area +
-                ", volume=" + volume +
-                '}';
+        return "Cuboid{" + "vertices=" + Arrays.toString(getVertices()) + ",height=" + height + ",weight=" + weight + ",depth =" + depth + " ," + "area=" + area + ", volume=" + volume + '}';
     }
 }

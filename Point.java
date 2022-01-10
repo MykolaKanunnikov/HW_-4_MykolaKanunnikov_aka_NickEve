@@ -43,16 +43,9 @@ public class Point {
     @Override
     public String toString() {
         if (z == 0) {
-            return "Point{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    '}';
+            return "Point{" + "x=" + x + ", y=" + y + '}';
         } else {
-            return "Point{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    ", z=" + z +
-                    '}';
+            return "Point{" + "x=" + x + ", y=" + y + ", z=" + z + '}';
         }
     }
 }

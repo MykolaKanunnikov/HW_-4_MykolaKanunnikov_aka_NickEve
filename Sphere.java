@@ -26,9 +26,6 @@ public class Sphere extends SpaceShape {
 
     @Override
     public String toString() {
-        return "Sphere{" + "vertices=" + Arrays.toString(getVertices()) + ",radius=" + radius + ", " +
-                "area=" + area +
-                ", volume=" + volume +
-                '}';
+        return "Sphere{" + "vertices=" + Arrays.toString(getVertices()) + ",radius=" + radius + ", " + "area=" + area + ", volume=" + volume + '}';
     }
 }
